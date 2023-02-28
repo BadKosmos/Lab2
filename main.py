@@ -50,13 +50,13 @@ def proc5():
     word = ' '.join(result)
     print(word)
 
-def proc2():
+def proc6():
     words = []
     while (new_word := str(input())) != "stop":
         words.append(new_word)
     print(" ".join(words))
 
-def proc3():
+def proc7():
     words = []
     while (new_word := str(input())) !="stop":
         if "ф" in new_word or "Ф" in new_word:
